@@ -1,33 +1,13 @@
-# Jekyll Base Template
+# Jekyll Play
 
-Basic template to start any static website in [Jekyll](https://jekyllrb.com).
+This is the minimal [Jekyll](https://jekyllrb.com) base template to quickly start playing with.
 
-# How to reach at this point
+# What it includes
 
-- Create a jekyll project with its generator and `cd` into it
-```
-jekyll new sitename && cd sitename
-```
+- [Bootstrap v4.5.0](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [Fontawesome v5.13.1](https://fontawesome.com/)
+- Google Analytics include file
+- `About` and `Blogs` page
+- A `custom.js` inside `assets/js/`
 
-- Create the top level folders
-```
-mkdir _include _layouts _sass assets
-```
-
-- Create `assets` subfolders
-```
-mkdir assets/css assets/fonts assets/img assets/js
-```
-
-- Create a basic `.gitignore` file
-```
-echo -e "_site\n.sass-cache\n.jekyll-metadata" > .gitignore
-```
-
-- Run as 
-```
-bundle exec jekyll serve
-```
-
-- Enjoyee!
-
+### Play and enjoyee!
