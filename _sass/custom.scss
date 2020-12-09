@@ -15,6 +15,10 @@ body {
 // .no-list-style {
 
 // }
+.highlight pre {
+  padding: 0.8rem 0.8rem;
+  background: #eee;
+}
 #page-content {
   flex: 1 0 auto;
 }
@@ -22,6 +26,7 @@ body {
   flex-shrink: none;
 }
 
+@import "syntax-highlighting";
 @import "animate.min";
 @import "home";
 @import "responsive";
