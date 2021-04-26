@@ -4,10 +4,30 @@
 
 // ipad and tablet
 @media (max-width: 768px) {
+  .navbar .brand {
+    padding: 0.5rem 0;
+  }
+  header .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0.6rem 1rem;
+    text-align: center;
+  }
+  .life-cycle {
+    top: 50px;
+  }
 }
 
 // standard mobile size
 @media (max-width: 500px) {
+  header .navbar .brand {
+    font-size: 1.2rem;
+
+    img {
+      height: 35px;
+    }
+  }
+  .footer-section .row .col-12 {
+    margin-bottom: 0.5rem;
+  }
 }
 
 // small size mobile

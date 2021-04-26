@@ -1,0 +1,58 @@
+// header
+header {
+  position: relative;
+
+  .navbar {
+    background-color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar {
+    .brand {
+      font-size: 1.5rem;
+
+      img {
+        height: 40px;
+      }
+      span {
+        vertical-align: middle;
+        font-weight: 600;
+        color: #f18720;
+        margin-left: 0.1rem;
+      }
+    }
+    .navbar-nav .nav-item .nav-link {
+      padding: 1.2rem 1.5rem;
+      font-size: 15px;
+      font-weight: 300;
+      color: #333;
+    }
+    .navbar-nav .nav-item.active .nav-link,
+      .navbar-nav .nav-item:hover .nav-link {
+      background-color: #94908d;
+      color: #fff;
+    }
+    .navbar-toggler {
+      border: 1px solid #777;
+      font-size: 20px;
+      padding: 0.125rem 0.25rem;
+    }
+  }
+}
+
+.non-milestone-page {
+  .syllabus {
+    h2 {
+      margin-top: 2rem;
+    }
+    .table {
+      td {
+        width: auto;
+        border: 1px solid #dee2e6;
+      }
+    }
+  }
+}
+.lesson-page {
+  padding: 2rem 0;
+}

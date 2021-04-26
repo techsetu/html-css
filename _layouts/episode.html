@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<section class="lesson-page">
+  <div class="container">
+    {% include episode_navbar.html episode_navbar_title=true %}
+    <section>
+      {% include episode_title.html %}
+      {% include episode_overview.html %}
+      {{content}}
+      {% include episode_keypoints.html %}
+    </section>
+    {% include episode_navbar.html episode_navbar_title=false %}
+  </div>
+</section>

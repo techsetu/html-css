@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
@@ -10,8 +11,10 @@
       </header>
 
       {% include life-cycle.html %}
-      <main class="page-margin">
-        {{ content }}
+      <main class="page-margin non-milestone-page">
+        <div class="container">
+          {{ content }}
+        </div>
       </main>
     </div>
 

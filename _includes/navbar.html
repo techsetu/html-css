@@ -1,20 +1,37 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark py-3">
+<!-- navbar -->
+<nav class="navbar fixed-top shadow-sm navbar-expand-lg">
   <div class="container">
-    <a class="navbar-brand" href="/">{{ site.title }}</a>
+    <a href="https://itgurukula.org" class="brand">
+      <img src="{{ site.baseurl }}{{ site.image_base_url }}/logo.png" alt="{{ site.title }}" />
+      <span>{{ site.title }}</span>
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class='bx bx-menu'></i>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav text-center mx-auto">
-        <li class="nav-item {% if page.page_name == 'home' %}active{% endif %}">
-          <a class="nav-link" href="/">Home</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item{% if page.page_name == 'home' %} active{% endif %}">
+          <a class="nav-link" href="{{ site.url }}{{ site.baseurl }}/">Schedule</a>
         </li>
-        <li class="nav-item {% if page.page_name == 'about' %}active{% endif %}">
-          <a class="nav-link" href="/about">About</a>
+
+        <li class="nav-item">
+          {% include milestones-nav-items.html %}
         </li>
-        <li class="nav-item {% if page.page_name == 'blogs' %}active{% endif %}">
-          <a class="nav-link" href="/blogs">Blogs</a>
+
+        {% comment %}
+          The following nav item links to https://brgtrainings.com/workshops
+        {% endcomment %}
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/workshops/">Workshops</a>
+        </li> -->
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/license/">License</a>
+        </li>
+
+        <li class="nav-item {% if page.page_name == 'extras' %} active{% endif %}">
+          {% include extras-nav-items.html %}
         </li>
       </ul>
     </div>

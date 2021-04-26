@@ -1,0 +1,41 @@
+{% comment %}
+For some reason, the relative_root_path seems out of scope in this file, so we
+need to re-assign it here
+{% endcomment %}
+
+{% include base_path.html %}
+
+{% comment %}
+  Navigation bar for an episode.
+{% endcomment %}
+
+{% comment %}
+    'previous_episode' and 'next_episodes' are defined in 'manual_episode_order.html'.
+    These replace 'page.previous' and 'page.next' objects, correspondingly.
+{% endcomment %}
+
+<div class="row">
+  <div class="col-2">
+    <h3 class="text-left">
+      {% if page.previous %}
+        <a href="{{ relative_root_path }}{{ page.previous.url }}"><i class='bx bxs-chevron-left'></i></a>
+      {% else %}
+        <a href="{{ relative_root_path }}/"><i class='bx bxs-chevron-left'></i></a>
+      {% endif %}
+    </h3>
+  </div>
+  <div class="col-8">
+    {% if include.episode_navbar_title %}
+    <h3 class="main-title"><a href="{{ relative_root_path }}/">{{ site.title }}</a></h3>
+    {% endif %}
+  </div>
+  <div class="col-2">
+    <h3 class="text-right mr-3">
+      {% if page.next %}
+        <a href="{{ relative_root_path }}{{ page.next.url }}"><i class='bx bxs-chevron-right'></i></a>
+      {% else %}
+        <a href="{{ relative_root_path }}/"><i class='bx bxs-chevron-up'></i></a>
+      {% endif %}
+    </h3>
+  </div>
+</div>

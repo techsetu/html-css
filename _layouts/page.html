@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: base
 ---
-<article class="post">
+{% include episode_title.html %}
 
-  <div class="post-content">
-    {{ content }}
-  </div>
-
-</article>
+<section>
+  {{content}}
+</section>

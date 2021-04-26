@@ -1,16 +1,20 @@
-<footer class="py-4 bg-light">
+{% include credits.html%}
+
+<footer class="footer-section py-4">
   <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-3 footer-social text-center order-md-3">
+        {% for contacts_hash in site.contacts %}
+          {% assign contact = contacts_hash[1] %}
+          <a href="{{ contact.url }}" class="mr-2" target="_blank" alt="{{ contact.label }}">
+            <i class="{{ contact.class }}"></i>
+          </a>
+        {% endfor %}
       </div>
-
-      <div class="col-md-4">
-        {%- include social.html -%}
-      </div>
-
-      <div class="col-md-4">
-        <p class="mb-0">{{- site.description | escape -}}</p>
+      <div class="col-12 col-md-4 text-center order-md-2">
+        <p class="copyright mb-0 text-white">
+          &copy; {{ site.year }} {{ site.title }}. All rights reserved.
+        </p>
       </div>
     </div>
   </div>

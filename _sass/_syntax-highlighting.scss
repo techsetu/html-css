@@ -1,12 +1,19 @@
-.highlight { background: #fff; }
-code.highlighter-rouge {
-  padding: 2px 5px !important;
+code {
+  white-space: nowrap;
+  padding: 2px 5px;
+  color: #24292e;
+  background-color: #e7e7e7;
 }
-.highlighter-rouge code {
-  color: #333;
-  // font-family: 'Inconsolata', monospace;
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
 }
-.highlighter-rouge .highlight { background: #eee; }
+
+.highlighter-rouge .highlight { background: #f8f8f8; }
 
 .highlight .c { color: #998; font-style: italic; }
 

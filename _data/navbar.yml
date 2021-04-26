@@ -1,0 +1,15 @@
+# Navbar should be similar to navbar of www.itgurukula.org
+- title: Home
+  url: /
+- title: Milestones
+  url: /milestones
+- title: Extras
+  links:
+    - title: About
+      url: /about
+    - title: Setup
+      url: /setup
+    - title: Contact
+      url: /contact
+- title: Workshops
+  url: /workshops

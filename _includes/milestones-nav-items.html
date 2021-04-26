@@ -1,0 +1,17 @@
+<div class="dropdown nav-item">
+  <a class="dropdown-toggle nav-link" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Milestones
+  </a>
+
+  <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuLink">
+    {% assign reversed_episodes = site.posts | reverse %}
+    {% for episode in reversed_episodes %}
+      {% if site.episode_order %}
+        {% assign episode = site.episodes | where: "slug", lesson_episode | first %}
+      {% else %}
+        {% assign episode = lesson_episode %}
+      {% endif %}
+      <a class="dropdown-item" href="{{ site.baseurl }}{{ episode.url }}">{{ episode.title }}</a>
+    {% endfor %}
+  </div>
+</div>

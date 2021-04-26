@@ -1,9 +1,24 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2019-01-25 08:02:19 +0530
-categories: jekyll update
+layout: episode
+title: Introduction
+date: 2021-04-04 01:01:01 +0530
+teaching: 10
+exercises: 0
+questions:
+objectives:
+- "Explain the header of each episode."
+- "Explain the overall structure of each episode."
+- "Explain why blockquotes are used to format parts of episodes."
+- "Explain the use of code blocks in episodes."
+keypoints:
+- "Lesson episodes are stored in _episodes/dd-subject.md."
+- "Each episode's title must include a title, time estimates, motivating questions, lesson objectives, and key points."
+- "Episodes should not use sub-titles or HTML layout."
+- "Code blocks can have the source, regular output, or error class."
+- "Special sections are formatted as blockquotes that open with a level-2 header and close with a class identifier."
+- "Special sections may be callouts or challenges; other styles are used by the template itself."
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
@@ -32,7 +47,7 @@ print_hi('Tom')
 
 and last is:
 
-~~~ruby
+~~~output
 def print_hi(name)
   puts "Hi, #{name}"
 end

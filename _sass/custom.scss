@@ -6,30 +6,112 @@ body {
   height: 100%;
 }
 body {
-  font-family: "Helvetica", Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+main {
+  line-height: 30px;
+}
+code, kbd, pre, samp {
+  font-family: 'Inconsolata', SFMono-Regular,Menlo,Monaco,Consolas,monospace;
+  font-size: 15px;
+  line-height: 22px;
+}
+a, a:hover {
+  text-decoration: none !important;
+}
+.blue {
+  color: #175EEE;
+}
+.red {
+  color: #EE2020
+}
+.green {
+  color: #0AAA50;
 }
 .page-margin {
-  margin-top: 100px;
+  margin-top: 70px;
 }
-ul {
-  list-style: none;
+.non-milestone-page {
+  padding: 4rem 0;
 }
-// .no-list-style {
 
-// }
-.highlight pre {
-  padding: 0.8rem 0.8rem;
-  background: #eee;
-}
 #page-content {
   flex: 1 0 auto;
 }
 #sticky-footer {
   flex-shrink: none;
 }
+pre {
+  padding: 10px;
+}
+.highlight pre {
+  margin: 0;
+  border: 0;
+}
+.mt-7 {
+  margin-top: 4rem;
+}
+
+// credits
+.credits {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+
+  p {
+    margin-bottom: 0;
+  }
+  a {
+    color: #196EBD;
+  }
+}
+
+// lifecycle
+.life-cycle {
+  padding: 0.2rem 1rem;
+  font-size: 14px;
+  text-align: center;
+  background-color: #555;
+  position: fixed;
+  top: 61px;
+  width: 100%;
+  z-index: 100;
+  font-size: 1em;
+  border-radius: 0;
+}
+
+// footer css
+.footer-section {
+  background: linear-gradient(180deg, #142850 0%, #0b1a38 70%);
+
+  .footer-text {
+    font-size: 24px;
+    color: #fff;
+
+    span {
+      font-weight: 600;
+    }
+  }
+  .copyright {
+    font-size: 13px;
+    vertical-align: middle;
+
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+  .footer-social {
+    a {
+      font-size: 18px;
+      display: inline-block;
+      color: #fff;
+    }
+  }
+}
 
 @import "syntax-highlighting";
-@import "animate.min";
+@import "lesson";
 @import "home";
 @import "responsive";
