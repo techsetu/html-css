@@ -1,0 +1,15 @@
+{% comment %}
+  Display prerequisites for the workshop index page.
+{% endcomment %}
+
+<blockquote class="prereq">
+  <h2>Prerequisites</h2>
+  <p class="text">
+    {{ page.prerequisites_text }}
+  </p>
+  <ul>
+    {% for prerequisite in page.prerequisites %}
+      <li>{{ prerequisite | markdownify }}</li>
+    {% endfor %}
+  </ul>
+</blockquote>
