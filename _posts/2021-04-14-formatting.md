@@ -365,7 +365,7 @@ for the following special blockquotes:
 > A laudatory quote from a user.
 {: .testimonial}
 
-> ## `.takeaway`
+> ## `.takeaways`
 >
 > Important learnings taken by user.
 {: .takeaways}
