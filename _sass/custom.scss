@@ -58,15 +58,16 @@ pre {
 
 // credits
 .credits {
-  background-color: #333;
+  background-color: #555;
   color: #fff;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 
   p {
     margin-bottom: 0;
+    font-size: 14px;
   }
-  a {
-    color: #196EBD;
+  a:link {
+    color: #a8d5ff;
   }
 }
 
@@ -86,7 +87,8 @@ pre {
 
 // footer css
 .footer-section {
-  background: linear-gradient(180deg, #142850 0%, #0b1a38 70%);
+  background: #333;
+  padding: 0.8rem;
 
   .footer-text {
     font-size: 24px;
@@ -101,7 +103,7 @@ pre {
     vertical-align: middle;
 
     a {
-      color: #fff;
+      color: #a8d5ff;
       text-decoration: underline;
     }
   }
