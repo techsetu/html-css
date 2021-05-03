@@ -190,6 +190,7 @@ $codeblock-padding: 5px !default;
 .solution{ @include bkSetup($color-solution, "\ea92"); }
 .testimonial{ @include bkSetup($color-testimonial, "\ea6c"); }
 .takeaways{ @include bkSetup($color-takeaways, "\eabc"); }
+.overview{ @include bkSetup($color-objectives, "\ea83"); }
 
 .callout h3,
 .challenge h3,
@@ -200,7 +201,8 @@ $codeblock-padding: 5px !default;
 .prereq h3,
 .solution h3,
 .testimonial h3,
-.takeaways h3 {
+.takeaways h3,
+.overview h3 {
 font-size: 18px;
 }
 
@@ -215,6 +217,7 @@ font-size: 18px;
 .solution     { background-color: #ded4b94d; }
 .testimonial  { background-color: #fc8dc120; }
 .takeaways    { background-color: #fff8e8b8; }
+.overview     { background-color: #daee8420; }
 
 blockquote p {
   margin: 5px;
@@ -223,7 +226,7 @@ blockquote :not(h2) + p {
   padding-top: 1em;
 }
 
-.keypoints ul, .objectives ul, .takeaways ul, .prereq ul {
+.keypoints ul, .objectives ul, .takeaways ul, .prereq ul, .overview ul {
   margin-bottom: 0;
 }
 .takeaways .text {

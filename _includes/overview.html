@@ -1,0 +1,30 @@
+{% comment %}
+  Important information about the workshop
+{% endcomment %}
+
+<blockquote class="overview">
+  <h2>Workshop Overview</h2>
+
+  <div class="overview-body pl-2">
+    <div class="row justify-content-between">
+      <div class="col-md-3">
+        <strong>Duration:</strong> {{ page.overview.duration }}
+        <br/>
+        <strong>Level:</strong> {{ page.overview.level }}
+      </div>
+      <div class="col-md-3">
+        {% unless page.overview.author == nil %}
+          <div>
+            <strong>Author:</strong> {{ page.overview.author }}
+          </div>
+        {% endunless %}
+
+        {% unless page.overview.contributors == nil %}
+          <div>
+            <a href="{{ page.overview.contributors }}" target="_blank">See list of contributors</a>
+          </div>
+        {% endunless %}
+      </div>
+    </div>
+  </div>
+</blockquote>
