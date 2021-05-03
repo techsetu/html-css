@@ -24,7 +24,7 @@ $color-objectives:  #daee84 !default;
 $color-prereq:      #9cd6dc !default;
 $color-solution:    #ded4b9 !default;
 $color-testimonial: #fc8dc1 !default;
-$color-takeaways:   #4ece66 !default;
+$color-takeaways:   #fad586 !default;
 
 //----------------------------------------
 // Specialized code blocks.
@@ -214,7 +214,7 @@ font-size: 18px;
 .prereq       { background-color: #9cd6dc20; }
 .solution     { background-color: #ded4b94d; }
 .testimonial  { background-color: #fc8dc120; }
-.takeaways     { background-color: #40de5e29; }
+.takeaways    { background-color: #fff8e8b8; }
 
 blockquote p {
   margin: 5px;
@@ -225,6 +225,9 @@ blockquote :not(h2) + p {
 
 .keypoints ul, .objectives ul, .takeaways ul {
   margin-bottom: 0;
+}
+.takeaways .text {
+  font-size: 16px;
 }
 
 //----------------------------------------

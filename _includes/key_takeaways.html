@@ -3,8 +3,8 @@
 {% endcomment %}
 
 <blockquote class="takeaways">
-  <h2>Key Takeaways</h2>
-  <p>
+  <h2>Key Takeaways from Workshop</h2>
+  <p class="text">
     {{ page.takeaways_text }}
   </p>
   <ul>
@@ -12,4 +12,9 @@
       <li>{{ takeaway | markdownify }}</li>
     {% endfor %}
   </ul>
+  {% if page.notes %}
+    <p>
+      <strong>NOTE:</strong> {{ page.notes }}
+    </p>
+  {% endif %}
 </blockquote>
