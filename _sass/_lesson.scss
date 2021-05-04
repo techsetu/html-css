@@ -409,7 +409,7 @@ section {
     margin: 0 0 6px;
   }
   ul li {
-    margin-bottom: 0;
+    margin-bottom: 5px;
 
     &:last-child {
       margin-bottom: 10px;
@@ -419,12 +419,6 @@ section {
     text-align: center;
     font-size: 23px;
   }
-  // blockquote {
-  //   padding: 5px 10px;
-  //   margin: 0 0 20px;
-  //   font-size: 14px;
-  //   border-left: 5px solid #eeeeee;
-  // }
   blockquote p {
     margin: 5px;
   }
