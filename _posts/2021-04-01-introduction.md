@@ -2,59 +2,90 @@
 layout: episode
 title: Introduction
 date: 2021-04-04 01:01:01 +0530
-teaching: 10
-exercises: 0
+teaching: 45
+exercises: 15
 questions:
+- What is HTML/HTML5 and why it is important?
+- What is inline and block level elements?
 objectives:
-- "Explain the header of each episode."
-- "Explain the overall structure of each episode."
-- "Explain why blockquotes are used to format parts of episodes."
-- "Explain the use of code blocks in episodes."
+- Understand the basics of HTML
+- Understand the commonly used HTML tags
 keypoints:
-- "Lesson episodes are stored in _episodes/dd-subject.md."
-- "Each episode's title must include a title, time estimates, motivating questions, lesson objectives, and key points."
-- "Episodes should not use sub-titles or HTML layout."
-- "Code blocks can have the source, regular output, or error class."
-- "Special sections are formatted as blockquotes that open with a level-2 header and close with a class identifier."
-- "Special sections may be callouts or challenges; other styles are used by the template itself."
+- HTML is one of the building block of Web.
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+We will be starting by understanding where HTML is used. First of all, let's perform
+this simple exercises
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+> ## Exercise: Load the URL
+>
+> 1. Open the browser.
+> 2. Enter url [https://itgurukula.org](https://itgurukula.org){:target="_blank"}
+> 3. Open the _Developer tools_. (See how instructor is doing or Google it)
+> 4. Under the `Network` tab, click on row(mostly 1st row) having `Name` as `itgurukula.org`.
+> 5. Notice the details under `Headers` tab.
+>
+> > ## Result
+> >
+> > ~~~
+> > // General
+> > Request URL: https://itgurukula.org/
+> > Request Method: GET
+> > Status Code: 304
+> > Remote Address: 185.199.110.153:443
+> > Referrer Policy: strict-origin-when-cross-origin
+> >
+> > // Response Headers
+> > ...
+> > content-length: 3732
+> > content-type: text/html; charset=utf-8
+> > server: GitHub.com
+> > ...
+> >
+> > // Request Headers
+> > :authority: itgurukula.org
+> > :method: GET
+> > :path: /
+> > :scheme: https
+> > accept: text/html
+> > ...
+> > user-agent: Mozilla/5.0
+> > ~~~
+> > __Instructor:__ Explain what is HTTP methods, status codes, user-agent and other important details.
+> > {: .output}
+> {: .solution}
+{: .challenge}
 
-Jekyll also offers powerful support for code snippets:
+## What is URL
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+A URL stands for _Uniform Resource Locator_, also termed a _Web Address_, is a reference to a web resource that represents its location on a internet. [Read more.](https://en.wikipedia.org/wiki/URL){:target="_blank"}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+<img src="./assets/img/url.jpg" height="auto" width="60%" alt="URL">
 
-Another format for adding code is:
+__Instructor:__ Explain _protocol, domain, tld and path.
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
+## Hello World
 
-and last is:
+Type the following code in your editor and give the file name as `hello.html`.
 
-~~~output
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+__NOTE:__ It is recommended to create a folder (say `html-css-workshop`) and keep all the examples
+codes in it.
+
 ~~~
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello World</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+  </body>
+</html>
+~~~
+{: .language-html}
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Open the `hello.html` file in browser. This can be done in two ways:
+  - Directly go to the file through `File Explorer` and locate the folder `html-css-workshop` and right click to file `hello.html` and click on `open in browser` (see _Open With_).
+  - Use the `Live Server` extension to open the file.
+
+  __NOTE:__ Using `Live Server` to open file has benefit as the web page will be updated as we type.
