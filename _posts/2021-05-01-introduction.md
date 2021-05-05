@@ -1,9 +1,9 @@
 ---
 layout: episode
 title: Introduction
-date: 2021-04-04 01:01:01 +0530
-teaching: 45
-exercises: 15
+date: 2021-05-01 01:01:01 +0530
+teaching: 15
+exercises: 5
 questions:
 - What is HTML/HTML5 and why it is important?
 - What is inline and block level elements?
