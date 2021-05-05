@@ -11,7 +11,9 @@ objectives:
 - Understand the basics of HTML
 - Understand the commonly used HTML tags
 keypoints:
-- HTML is one of the building block of Web.
+- HTML stands for _HyperText Markup Language_ and is one of the building block of Web.
+- Client request web page to the server and server sent the page as response.
+- Currently, the HTML5 is the default HTML version.
 ---
 
 We will be starting by understanding where HTML is used. First of all, let's perform
@@ -51,10 +53,15 @@ this simple exercises
 > > ...
 > > user-agent: Mozilla/5.0
 > > ~~~
-> > __Instructor:__ Explain what is HTTP methods, status codes, user-agent and other important details.
+> >
 > > {: .output}
 > {: .solution}
 {: .challenge}
+
+>> ## Instructor
+>>
+>> Explain basic of Client-Server model, HTTP methods, status codes, user-agent and other important details.
+{: .instructor}
 
 ## What is URL
 
@@ -62,7 +69,10 @@ A URL stands for _Uniform Resource Locator_, also termed a _Web Address_, is a r
 
 <img class="embed-img" src="./assets/img/url.jpg" alt="URL">
 
-__Instructor:__ Explain _protocol, domain, tld and path.
+>> ## Instructor
+>>
+>> Explain _protocol, domain, TLD and path_.
+{: .instructor}
 
 ## Hello World
 
@@ -79,6 +89,7 @@ codes in it.
   </head>
   <body>
     <h1>Hello World</h1>
+    <p style="color: blue;">This is the first web page.</p>
   </body>
 </html>
 ~~~
@@ -89,3 +100,10 @@ Open the `hello.html` file in browser. This can be done in two ways:
   - Use the `Live Server` extension to open the file.
 
   __NOTE:__ Using `Live Server` to open file has benefit as the web page will be updated as we type.
+
+>> ## Instructor
+>>
+>> Explain the layout of the HTML web page, `lang="en"`, `DOCTYPE`, element and tag.
+{: .instructor}
+
+<img class="embed-img" src="./assets/img/element.jpg" alt="Element and Tag">
