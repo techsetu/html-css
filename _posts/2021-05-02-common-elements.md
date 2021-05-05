@@ -1,28 +1,25 @@
 ---
 layout: episode
-title: Introduction
-date: 2021-05-01 01:01:01 +0530
-teaching: 10
-exercises: 5
+title: Common HTML Elements
+date: 2021-05-02 01:01:01 +0530
+teaching: 20
+exercises: 0
 questions:
-- What is HTML/HTML5 and why it is important?
-- What happen when you enter the url in browser.
+- What kind of HTML elements make the web page?
+- What is inline and block level elements?
 objectives:
-- Understand the basics of Client/Server model.
-- Understand the basic structure of Web page.
+- Understand the commonly used elements of HTML.
 keypoints:
-- HTML stands for _HyperText Markup Language_ and is one of the building block of Web.
-- Client request web page to the server and server sent the page as response.
-- Currently, the HTML5 is the default HTML version.
-- The `<html>` tag is the root element and defines the whole HTML document.
-- HTML tags can be nested i.e tags can contain other tags.
-- HTML tag is Not Case Sensitive i.e `<P>` means the same as `<p>`.
-- Never skip the closing tag else one will get unexpected results.
-- HTML tags with no content and closing tag are called empty tags. Eg - `<br>`, `<img>` etc
+- HTML tags are case insensitive.
+- Spaces get trimmed in while rendering in the web page.
 ---
 
-We will be starting by understanding where HTML is used. First of all, let's perform
-this simple exercises
+In this milestone, we will quickly go through important HTML tags which
+are widely used.
+
+## Headings
+
+There are six kind of headings and each has different sizes.
 
 > ## Exercise: Load the URL
 >
@@ -112,4 +109,3 @@ Open the `hello.html` file in browser. This can be done in two ways:
 {: .instructor}
 
 <img class="embed-img" src="./assets/img/element.jpg" alt="Element and Tag">
-
