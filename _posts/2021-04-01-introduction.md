@@ -60,7 +60,7 @@ this simple exercises
 
 A URL stands for _Uniform Resource Locator_, also termed a _Web Address_, is a reference to a web resource that represents its location on a internet. [Read more.](https://en.wikipedia.org/wiki/URL){:target="_blank"}
 
-<img src="./assets/img/url.jpg" height="auto" width="60%" alt="URL">
+<img class="embed-img" src="./assets/img/url.jpg" alt="URL">
 
 __Instructor:__ Explain _protocol, domain, tld and path.
 
