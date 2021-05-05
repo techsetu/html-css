@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Setup
-permalink: /setup
+permalink: /setup/
 ---
 
 To go through the process of hands-on, you need to have few essential tools in your machine.
