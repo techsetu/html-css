@@ -6,10 +6,10 @@ teaching: 15
 exercises: 5
 questions:
 - What is HTML/HTML5 and why it is important?
-- What is inline and block level elements?
+- What happen when you enter the url in browser.
 objectives:
-- Understand the basics of HTML
-- Understand the commonly used HTML tags
+- Understand the basics of Client/Server model.
+- Understand the basic structure of Web page.
 keypoints:
 - HTML stands for _HyperText Markup Language_ and is one of the building block of Web.
 - Client request web page to the server and server sent the page as response.
