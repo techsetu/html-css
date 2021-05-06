@@ -121,6 +121,17 @@ pre {
   }
 }
 
+// override lesson css
+table.output {
+  margin-bottom: 0;
+
+  td {
+    padding: 0.25rem 1rem;
+    border: 1px solid #aaa;
+    color: #555;
+  }
+}
+
 @import "syntax-highlighting";
 @import "lesson";
 @import "home";
