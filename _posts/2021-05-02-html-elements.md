@@ -7,6 +7,8 @@ exercises: 10
 questions:
 - What kind of HTML elements make the web page?
 - What is inline and block level elements?
+- What are different ways of representing data in Web page?
+- How to format text in Web page?
 objectives:
 - Understand the commonly used elements of HTML.
 keypoints:
@@ -19,7 +21,7 @@ keypoints:
 - Table tag display the items into tabular format.
 ---
 
-In this milestone, we will quickly go through important HTML tags which
+In this episode, we will quickly go through important HTML tags which
 are widely used.
 
 ## Headings
