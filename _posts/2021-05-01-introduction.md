@@ -90,8 +90,10 @@ A URL stands for _Uniform Resource Locator_, also termed a _Web Address_, is a r
 
 - CSS stands for _Cascading Style Sheets_.
 - It is the standard markup language for creating Web pages.
-- It describes the structure of a Web page.
+- It describes how the web page should be displayed(UI).
+- It describes how elements should be rendered on screen, on paper, in speech, or on other media.
 - HTML elements tell the browser how to display the content.
+- Simply saying, CSS adds styling to the web page.
 
 __NOTE:__ The word _Cascading_ means that a style applied to a parent element will also apply to all children elements within the parent.
 ## Hello World
