@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style: decimal;
+}
+
+.weekly-tracker {
+  max-width: 1100px;
+  margin: 2rem auto;
+}
+.weekly-tracker .header-title h1 {
+  color: brown;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.weekly-tracker .day-tasks {
+  background-color: #e2d5d5;
+  padding: 3rem 2rem;
+}
+.weekly-tracker .day-tasks .day {
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  color: #666;
+}
+.weekly-tracker .day-tasks .day ul {
+  list-style: none;
+}
+.weekly-tracker .day-tasks .day ul li {
+  position: relative;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+.weekly-tracker .day-tasks .day ul li:before {
+  content: '\1f449';
+  position: absolute;
+  left: -1.3rem;
+  top: -0.4rem;
+}
+.weekly-tracker .day-tasks .day:last-child {
+  margin-bottom: 0;
+}
+
+.weekly-tracker .exercise {
+  color: red;
+}
+.weekly-tracker .exercise.yoga {
+  color: orange;
+}
+
