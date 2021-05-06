@@ -3,7 +3,7 @@ layout: episode
 title: Basic Styling
 date: 2021-05-02 02:01:01 +0530
 teaching: 20
-exercises: 5
+exercises: 10
 questions:
 - What are different ways of selecting elements in CSS?
 - How to change the size of elements?

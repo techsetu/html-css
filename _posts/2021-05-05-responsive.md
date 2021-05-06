@@ -2,8 +2,8 @@
 layout: episode
 title: Making responsive web page
 date: 2021-05-05 02:01:01 +0530
-teaching: 25
-exercises: 5
+teaching: 20
+exercises: 10
 questions:
 - How to get inputs from users in Web page?
 -
