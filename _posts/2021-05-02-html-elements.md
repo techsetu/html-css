@@ -3,7 +3,7 @@ layout: episode
 title: HTML Elements
 date: 2021-05-02 01:01:01 +0530
 teaching: 20
-exercises: 0
+exercises: 10
 questions:
 - What kind of HTML elements make the web page?
 - What is inline and block level elements?
@@ -12,6 +12,11 @@ objectives:
 keypoints:
 - HTML tags are case insensitive.
 - Spaces get trimmed in while rendering in the web page.
+- There are two types of elements, inline and block level.
+- Image is an inline element.
+- User-agent or browser add default margin or padding to heading and paragraph.
+- List tags help to display group of related items.
+- Table tag display the items into tabular format.
 ---
 
 In this milestone, we will quickly go through important HTML tags which
@@ -330,3 +335,75 @@ Following are different kind of text formatting one can used in HTML.
   </table>
   ~~~
 
+## Exercises
+
+> ## Developer Profile
+>
+> Create a simple developer profile shown as below:
+> <img class="embed-img" src="./assets/img/dev-profile.jpg" alt="Dev Profile" >
+>
+> > ## Starter Code
+> >
+> > ~~~
+> > <!DOCTYPE html>
+> > <html lang="en">
+> >   <head>
+> >     <title>Developer Profile</title>
+> >   </head>
+> >   <body>
+> >     <div class="container">
+> >       <div class="header">
+> >          <!-- h2 -->
+> >          <!-- p -->
+> >       </div>
+> >
+> >       <div class="main">
+> >         <!-- img (set width to 100) -->
+> >         <!-- h4 -->
+> >         <!-- ul -->
+> >       </div>
+> >     </div>
+> >   </body>
+> > </html>
+> > ~~~
+> > {: .language-html}
+>  __NOTE__: Download user image here (<a href="./examples/images/user.png" download>Click <i class='bx bxs-cloud-download' ></i> to download).
+> {: .solution}
+{: .challenge}
+
+> ## Daily Tracker
+>
+> Create a simple daily tasks tracker as below:
+> <img class="embed-img" src="./assets/img/daily-tracker.jpg" alt="Daily Tracker" >
+>
+> > ## Starter Code
+> >
+> > ~~~html
+> > <!DOCTYPE html>
+> > <html lang="en">
+> >   <head>
+> >     <title>Daily Tracker</title>
+> >   </head>
+> >   <body>
+> >     <div class="container">
+> >       <div class="header">
+> >         <!-- h2-->
+> >         <!-- p-->
+> >       </div>
+> >
+> >       <div class="main">
+> >         <!-- h2-->
+> >         <!-- table -->
+> >         <!--
+> >           - Set style of table as 'background-color: #eee; width: 300px; text-align: center;'
+> >           - Set th and td style s 'border: 1px solid #555;'
+> >           - Set width of th as necessary
+> >         -->
+> >       </div>
+> >     </div>
+> >   </body>
+> > </html>
+> > ~~~
+> > {: .language-html}
+> {: .solution}
+{: .challenge}
