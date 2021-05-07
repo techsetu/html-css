@@ -813,11 +813,11 @@ Following are popular ways of specifying colors in CSS:
 
 ## Exercises
 
-> ## Sample Web Page
+> ## Exercise: Sample Web Page
 >
 > 1. Open the <a href="https://codepen.io/itgurukula/pen/QWpwMpx" target="_blank">CodePen link</a>.
 > 2. Click on `Fork` link at the bottom right corner.
-> 2. Update the CSS panel as per the instructions given.
+> 3. Update the CSS panel as per the instructions given.
 >
 > > ## Output preview
 > >
