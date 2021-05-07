@@ -205,7 +205,14 @@ Following are different kind of text formatting one can used in HTML.
   - Click on `link text` will redirect the user to destination `url`.
   - The `target` attribute specifies where to open the linked document.
 
-- Example: `<a href="https://itgurukula.org">IT Gurukula</a>`
+  > ## Example
+  >
+  > ~~~html
+  > <a href="https://itgurukula.org">IT Gurukula</a>
+  > ~~~
+  >
+  {: .example}
+
 
   > ## Exercise: Open link in new tab
   >
@@ -218,7 +225,11 @@ Following are different kind of text formatting one can used in HTML.
 ## Image tag
 
 - `<img>` tag is used to embed (or insert) image in the HTML page.
-- Syntax: `<img src="image-path.extension-name" alt="some text">`
+- Syntax:
+
+  ~~~html
+  <img src="image-path.extension-name" alt="some text">
+  ~~~
 
   where:
 
@@ -227,7 +238,12 @@ Following are different kind of text formatting one can used in HTML.
 
   __NOTE:__ It is recommended to give styling of image through CSS. However, we can specify `height` and `width` for the image.
 
-- Example: `<img src="images/html.png" alt="HTML" width="100">`
+  > ## Example
+  >
+  > ~~~html
+  > <img src="images/html.png" alt="HTML" width="100">
+  > ~~~
+  {: .example}
 
   > ## Exercise: Clickable image
   >
@@ -253,11 +269,11 @@ Following are different kind of text formatting one can used in HTML.
   - Always starts on a new line.
   - Always takes up the full width available until specified.
   - Has a top and a bottom margin.
-  - Examples: `<div>, <p>, <h1>...<h6>, <hr>, <nav>, <main>, <section>, <audio>, <video> etc`
+  - Examples: `<div>, <p>, <h1>...<h6>, <main>` etc
 - Inline level element:
   - Doesn’t not start from new line
   - Only takes up width as necessary
-  - Examples: `<a>, <b>, <br>, <cite>, <code>, <small>, <span>, <img>, <input> etc`
+  - Examples: `<span>, <img>, <br>, <a>` etc
 
   ~~~html
   <div style="border: 1px solid black">
