@@ -2,8 +2,8 @@
 layout: episode
 title: Introduction
 date: 2021-05-01 01:01:01 +0530
-teaching: 5
-exercises: 5
+teaching: 7
+exercises: 3
 questions:
 - What is HTML/HTML5 and why it is important?
 - What happen when you enter the url in browser.
