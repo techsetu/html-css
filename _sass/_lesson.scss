@@ -26,6 +26,7 @@ $color-solution:    #ded4b9 !default;
 $color-testimonial: #fc8dc1 !default;
 $color-takeaways:   #fad586 !default;
 $color-instructor:  #fbeeac !default;
+$color-example:     #eee !default;
 
 //----------------------------------------
 // Specialized code blocks.
@@ -136,7 +137,7 @@ section h2 {
   line-height: 1.25;
 }
 
-section h3 { margin: 40px 0 16px; }
+section h3 { margin: 30px 0 14px; }
 
 section pre {
   margin: 0;
@@ -194,6 +195,7 @@ $codeblock-padding: 5px !default;
 .takeaways{ @include bkSetup($color-takeaways, "\eabc"); }
 .overview{ @include bkSetup($color-objectives, "\ea83"); }
 .instructor{ @include bkSetup($color-instructor, "\ee3d"); }
+.example{ @include bkSetup($color-example, "\ebdf"); }
 
 .callout h3,
 .challenge h3,
@@ -206,7 +208,8 @@ $codeblock-padding: 5px !default;
 .testimonial h3,
 .takeaways h3,
 .overview h3,
-.instructor h3 {
+.instructor h3,
+.example h3 {
 font-size: 18px;
 }
 
@@ -223,6 +226,7 @@ font-size: 18px;
 .takeaways    { background-color: #fff8e8b8; }
 .overview     { background-color: #daee8420; }
 .instructor   { background-color: #f4fd9c20; }
+.example      { background-color: #fff8e8b8; }
 
 blockquote p {
   margin: 5px;
