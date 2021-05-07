@@ -24,6 +24,15 @@ keypoints:
 In this episode, we will quickly go through important HTML tags which
 are widely used.
 
+## Comment
+
+- Comment is used to explain the code which might be useful for self or for others.
+- These are not displayed or rendered in the web page.
+- Syntax:
+
+  ~~~html
+  <!-- Write your comments here -->
+  ~~~
 ## Headings
 
 - Heading tags are used for titles and subtitles.
