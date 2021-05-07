@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Box 1 vs Box 2</title>
+
+    <style>
+      .box1 {
+        box-sizing: content-box;
+        width: 300px;
+        height: 100px;
+        padding: 30px;
+        border: 10px solid blue;
+      }
+      .box2 {
+        box-sizing: border-box;
+        width: 300px;
+        height: 100px;
+        padding: 30px;
+        border: 10px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      Width is 300px + 20px(left + right border) + 60px (left + right padding) = 380px
+    </div>
+    <div class="box2">
+      Width is 300px
+    </div>
+  </body>
+</html>
