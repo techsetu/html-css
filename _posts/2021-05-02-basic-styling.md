@@ -276,6 +276,22 @@ Following are popular ways of specifying colors in CSS:
   /* above are same way of getting red color */
   ~~~
 
+## CSS Units
+
+- CSS has several different units for expressing a length.
+- Following are popular units which are widely used:
+  - `px`: Pixels (1px = 1/96th of 1 inch)
+  - `em`: Relative to the font-size of the element.
+  - `rem`: Relative to font-size of the root element.
+  - `vw`:	Relative to 1% of the width of the viewport.
+  - `vh`:	Relative to 1% of the height of the viewport.
+  - `%`:	Relative to the parent element.
+
+  >> ## Instructor
+  >>
+  >> Show the demo of different CSS units. Also, explain concepts like _Viewport_ etc.
+  {: .instructor}
+
 ## CSS Background
 
 - The `background` properties are used to add background effects for html elements.
@@ -794,3 +810,19 @@ Following are popular ways of specifying colors in CSS:
     To fix it, you need to add 'z-index; -1' to 'img' tag.
   </p>
   ~~~
+
+## Exercises
+
+> ## Sample Web Page
+>
+> 1. Open the <a href="https://codepen.io/itgurukula/pen/QWpwMpx" target="_blank">CodePen link</a>.
+> 2. Click on `Fork` link at the bottom right corner.
+> 2. Update the CSS panel as per the instructions given.
+>
+> > ## Output preview
+> >
+> > The web page should look like below:
+> > <img class="embed-img" src="./assets/img/sample-page.jpg" >
+> >
+> {: .solution}
+{: .challenge}
