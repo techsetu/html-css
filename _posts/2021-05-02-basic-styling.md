@@ -2,8 +2,8 @@
 layout: episode
 title: Basic Styling
 date: 2021-05-02 02:01:01 +0530
-teaching: 30
-exercises: 10
+teaching: 35
+exercises: 15
 questions:
 - What are different ways of selecting elements in CSS?
 - How to change the size of elements?
@@ -767,22 +767,30 @@ Following are popular ways of specifying colors in CSS:
 
 ## Overlapping Element (z-index)
 
-It is possible that two elements can overlap each other like in below case:
+- The `z-index` property controls the vertical stacking order of elements that overlap.
+- It controls which element should appears physically closer to you.
+- It only affects elements that have a position value other than static (the default).
+- Following image will help you understand the _overlapping concept_.
 
-~~~html
-<style>
-img {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  /* CSS here */
-}
-</style>
+  <img class="embed-img" src="./assets/img/z-index.jpg" alt="Z-index" >
 
-<h1>This is a heading</h1>
-<img src="images/user.png" width="100" height="140">
-<p>
-  This is paragraph and the image get overlap to it.
-  To fix it, you need to add `z-index; -1` to `img` tag.
-</p>
-~~~
+- The higher the value of `z-index`, closer it will to your eyes.
+- It is possible that two elements can overlap each other like in below case:
+
+  ~~~html
+  <style>
+  img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* CSS here */
+  }
+  </style>
+
+  <h1>This is a heading</h1>
+  <img src="images/user.png" width="100" height="140">
+  <p>
+    This is paragraph and the image get overlap to it.
+    To fix it, you need to add 'z-index; -1' to 'img' tag.
+  </p>
+  ~~~
