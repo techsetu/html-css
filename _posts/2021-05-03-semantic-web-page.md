@@ -2,8 +2,8 @@
 layout: episode
 title: Semantic Web Page
 date: 2021-05-03 01:01:01 +0530
-teaching: 8
-exercises: 7
+teaching: 5
+exercises: 10
 questions:
 - How to make the web page semantic?
 - What kind of benefits does semantic web page have?
@@ -35,6 +35,39 @@ However, the non-semantic elements like `<div>`, `<span>` tell nothing about its
 - The `<article>` element specifies independent, self-contained content.
 - The `<footer>` element defines a footer for a document or section.
 - The `<figure>` tag specifies self-contained content, like _illustrations, diagrams, photos_ etc.
+
+## Example
+
+> ## Example Snippets
+>
+> Show example of Semantic web page using following code snippets.
+>
+> > ## Code Snippets
+> >
+> > ~~~html
+> > <nav>
+> >  <a href="#">Home</a> |
+> >  <a href="#about">About</a> |
+> >  <a href="#blogs">Blogs</a>
+> > </nav>
+> >
+> > <section id="<section-id>">
+> >   <h1>Section Name</h1>
+> >
+> >  <article>
+> >    <div class="about-details">
+> >      This is an example of Semantic Weg Page. Lorem ipsum dolor sit amet consectetur adipisicing
+> >      elit. Nostrum voluptates magni velit eos nulla dolor,
+> >      laborum quod in minima vero.
+> >    </div>
+> >  </article>
+> > </section>
+> > ~~~
+> >
+> > - Add `header` and `footer` as necessary
+> > {: .language-html}
+> {: .solution}
+{: .challenge}
 
 ## Why Semantic elements?
 
