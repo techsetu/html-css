@@ -10,7 +10,10 @@ layout: default
       {% unless page.break %}
         {% include episode_overview.html %}
         {{content}}
-        {% include episode_keypoints.html %}
+
+        {% if page.keypoints.size > 0 %}
+          {% include episode_keypoints.html %}
+        {% endif %}
       {% endunless %}
     </section>
     {% include episode_navbar.html episode_navbar_title=false %}
