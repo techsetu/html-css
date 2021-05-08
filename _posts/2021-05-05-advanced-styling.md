@@ -13,6 +13,39 @@ keypoints:
 
 In this episode, we will be see some of advanced CSS concepts.
 
+## Rounded Corners
+
+The CSS `border-radius` property defines the radius of an element's corners.
+
+~~~css
+.box {
+  padding: 1rem;
+  border-radius: 5px;
+}
+~~~
+
+## Box shadow
+
+The CSS `box-shadow` property applies shadow to elements.
+
+Syntax:
+
+~~~css
+box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+~~~
+
+Example:
+
+~~~css
+div.card {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+~~~
+
+Read more in the [w3school](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp){:target="_blank"}.
+
 ## Flexible Box Layout (Flexbox)
 
 - The _Flexbox Layout (Flexible Box)_ aims to provide a more efficient way to layout, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word "flex").
