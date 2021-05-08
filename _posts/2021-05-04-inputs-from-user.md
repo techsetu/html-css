@@ -166,3 +166,19 @@ Following are different types of common input elements used in web page.
   ~~~
 
 - It is recommended to use CSS to define the styling of `textarea`. We can define `width` and `height` through CSS.
+
+## Exercises
+
+> ## Exercise: Sign Up Styling
+>
+> 1. Open the <a href="https://codepen.io/itgurukula/pen/bGqNzRZ" target="_blank">CodePen link</a>.
+> 2. Click on `Fork` link at the bottom right corner.
+> 3. Update the CSS panel as per the instructions given.
+>
+> > ## Output preview
+> >
+> > The web page should look like below:
+> > <img class="embed-img" src="./assets/img/sign_up.jpg" >
+> >
+> {: .solution}
+{: .challenge}

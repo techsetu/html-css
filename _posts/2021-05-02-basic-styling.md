@@ -826,3 +826,17 @@ Following are popular ways of specifying colors in CSS:
 > >
 > {: .solution}
 {: .challenge}
+
+> ## Exercise: Bootstrap like buttons
+>
+> 1. Open the <a href="https://codepen.io/itgurukula/pen/JjWoxNN" target="_blank">CodePen link</a>.
+> 2. Click on `Fork` link at the bottom right corner.
+> 3. Update the CSS panel as per the instructions given.
+>
+> > ## Output preview
+> >
+> > The web page should look like below:
+> > <img class="embed-img" src="./assets/img/bootstrap-like-btns.jpg" >
+> >
+> {: .solution}
+{: .challenge}
