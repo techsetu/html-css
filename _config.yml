@@ -1,4 +1,7 @@
 title: HTML & CSS Workshop
+brg_title: >-
+  <span class="blue">B</span><span class="red">R</span><span class="green">G</span> Trainings
+email: contact@brgtrainings.com
 email: itgurukulanp@gmail.com
 life_cycle: pre-alpha
 description: >- # this means to ignore newlines until "baseurl:"

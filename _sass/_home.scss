@@ -10,15 +10,13 @@ header {
   .navbar {
     .brand {
       font-size: 1.5rem;
+      color: #555;
 
       img {
         height: 40px;
       }
       span {
-        vertical-align: middle;
         font-weight: 600;
-        color: #f18720;
-        margin-left: 0.1rem;
       }
     }
     .navbar-nav .nav-item .nav-link {
