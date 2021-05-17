@@ -815,7 +815,7 @@ Following are popular ways of specifying colors in CSS:
 
 > ## Exercise: Sample Web Page
 >
-> 1. Open the <a href="https://codepen.io/itgurukula/pen/QWpwMpx" target="_blank">CodePen link</a>.
+> 1. Open the <a href="https://codepen.io/brgurukul/pen/NWpRPjQ" target="_blank">CodePen link</a>.
 > 2. Click on `Fork` link at the bottom right corner.
 > 3. Update the CSS panel as per the instructions given.
 >
@@ -829,7 +829,7 @@ Following are popular ways of specifying colors in CSS:
 
 > ## Exercise: Bootstrap like buttons
 >
-> 1. Open the <a href="https://codepen.io/itgurukula/pen/JjWoxNN" target="_blank">CodePen link</a>.
+> 1. Open the <a href="https://codepen.io/brgurukul/pen/OJpRPgq" target="_blank">CodePen link</a>.
 > 2. Click on `Fork` link at the bottom right corner.
 > 3. Update the CSS panel as per the instructions given.
 >

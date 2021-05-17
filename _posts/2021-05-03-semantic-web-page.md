@@ -79,7 +79,7 @@ However, the non-semantic elements like `<div>`, `<span>` tell nothing about its
 
 > ## Exercise: Semantic Web Page
 >
-> 1. Open the <a href="https://codepen.io/itgurukula/pen/QWpwQJb" target="_blank">CodePen link</a>.
+> 1. Open the <a href="https://codepen.io/brgurukul/pen/MWpjYvy" target="_blank">CodePen link</a>.
 > 2. Click on `Fork` link at the bottom right corner.
 > 3. Update the HTML panel as per the instructions given to update required `div` tags to its equivalent semantic tags.
 >

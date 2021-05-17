@@ -171,7 +171,7 @@ Following are different types of common input elements used in web page.
 
 > ## Exercise: Sign Up Styling
 >
-> 1. Open the <a href="https://codepen.io/itgurukula/pen/bGqNzRZ" target="_blank">CodePen link</a>.
+> 1. Open the <a href="https://codepen.io/brgurukul/pen/abJmzyw" target="_blank">CodePen link</a>.
 > 2. Click on `Fork` link at the bottom right corner.
 > 3. Update the CSS panel as per the instructions given.
 >
