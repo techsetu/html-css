@@ -1,8 +1,7 @@
 title: HTML & CSS Workshop
 brg_title: >-
-  <span class="blue">B</span><span class="red">R</span><span class="green">G</span> Trainings
-email: contact@brgtrainings.com
-email: itgurukulanp@gmail.com
+  <span class="blue">B</span><span class="red">R</span>&nbsp;<span class="green">G</span>urukul
+email: info@brgurukul.org
 life_cycle: pre-alpha
 description: >- # this means to ignore newlines until "baseurl:"
   Workshop syllabus for HTML and CSS conducted by BRG
@@ -21,7 +20,7 @@ permalink: /:title
 
 contacts:
   facebook:
-    url: https://www.facebook.com/cooolbrg
+    url: https://www.facebook.com/brgurukul
     label: Facebook
     class: bx bxl-facebook
   twitter:
@@ -30,7 +29,7 @@ contacts:
     class: bx bxl-twitter
     username: "@coolbrg"
   github:
-    url: https://github.com/itgurukula/
+    url: https://github.com/brgurukul/
     label: GitHub
     class: bx bxl-github
   linkedin:
@@ -38,7 +37,7 @@ contacts:
     label: LinkdIn
     class: bx bxl-linkedin
   email:
-    url: mailto:itgurukulanp@gmail.com
+    url: mailto:info@brgurukul.org
     label: Email
     class: bx bx-mail-send
   # youtube:

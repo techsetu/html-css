@@ -7,7 +7,7 @@ page_name: license
 
 ## Instructional Material
 
-All __BRG Trainings Workshop__ instructional material is made available under the
+All __BR Gurukul Workshop__ instructional material is made available under the
 [Creative Commons Attribution license][cc-by-human]. The following is a human-readable summary of
 (and not a substitute for) the [full legal text of the CC BY 4.0
 license][cc-by-legal].
@@ -26,7 +26,7 @@ Under the following terms:
 
 * **Attribution**---You must give appropriate credit (mentioning that
   your work is derived from work that is Copyright © BRG Classes and, where practical, linking to
-  [http://brgtrainings.com](http://brgtrainings.com)), provide a [link to the
+  [http://brgurukul.org](http://brgurukul.org)), provide a [link to the
   license][cc-by-human], and indicate if changes were made. You may do
   so in any reasonable manner, but not in any way that suggests the
   licensor endorses you or your use.
