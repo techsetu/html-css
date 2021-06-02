@@ -1,10 +1,9 @@
 title: HTML & CSS Workshop
-brg_title: >-
-  <span class="blue">B</span><span class="red">R</span>&nbsp;<span class="green">G</span>urukul
-email: info@brgurukul.org
+org_title: TECH Setu
+email: techsetuu@gmail.com
 life_cycle: pre-alpha
 description: >- # this means to ignore newlines until "baseurl:"
-  Workshop syllabus for HTML and CSS conducted by BRG
+  Workshop syllabus for HTML and CSS conducted under TECH Setu
 baseurl: "/html-css" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 image_base_url: /assets/img
@@ -14,30 +13,30 @@ author_url: https://freelancerbrg.com
 twitter_username: coolbrg
 github_username:  coolbrg
 
-google_analytics: G-RMJDG09LZT # your google analytics id
+google_analytics: G-6YGR4H8C5L
 
 permalink: /:title
 
 contacts:
   facebook:
-    url: https://www.facebook.com/brgurukul
+    url: https://www.facebook.com/techsetu
     label: Facebook
     class: bx bxl-facebook
-  twitter:
-    url: https://twitter.com/coolbrg/
-    label: Twitter
-    class: bx bxl-twitter
-    username: "@coolbrg"
+  # twitter:
+  #   url: https://twitter.com/coolbrg/
+  #   label: Twitter
+  #   class: bx bxl-twitter
+  #   username: "@coolbrg"
   github:
-    url: https://github.com/brgurukul/
+    url: https://github.com/techsetu/
     label: GitHub
     class: bx bxl-github
-  linkedin:
-    url: https://www.linkedin.com/in/coolbrg
-    label: LinkdIn
-    class: bx bxl-linkedin
+  # linkedin:
+  #   url: https://www.linkedin.com/in/coolbrg
+  #   label: LinkdIn
+  #   class: bx bxl-linkedin
   email:
-    url: mailto:info@brgurukul.org
+    url: mailto:techsetuu@gmail.com
     label: Email
     class: bx bx-mail-send
   # youtube:
