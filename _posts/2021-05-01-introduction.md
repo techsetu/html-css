@@ -27,16 +27,16 @@ this simple exercises
 > ## Exercise: Load the URL
 >
 > 1. Open the browser.
-> 2. Enter url [https://itgurukula.org](https://itgurukula.org){:target="_blank"}
+> 2. Enter url [https://techsetu.org](https://techsetu.org){:target="_blank"}
 > 3. Open the _Developer tools_. (See how instructor is doing or Google it)
-> 4. Under the `Network` tab, click on row(mostly 1st row) having `Name` as `itgurukula.org`.
+> 4. Under the `Network` tab, click on row(mostly 1st row) having `Name` as `techsetu.org`.
 > 5. Notice the details under `Headers` tab.
 >
 > > ## Result
 > >
 > > ~~~
 > > // General
-> > Request URL: https://itgurukula.org/
+> > Request URL: https://techsetu.org/
 > > Request Method: GET
 > > Status Code: 304
 > > Remote Address: 185.199.110.153:443
@@ -50,7 +50,7 @@ this simple exercises
 > > ...
 > >
 > > // Request Headers
-> > :authority: itgurukula.org
+> > :authority: techsetu.org
 > > :method: GET
 > > :path: /
 > > :scheme: https
