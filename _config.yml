@@ -4,7 +4,7 @@ email: techsetuu@gmail.com
 life_cycle: pre-alpha
 description: >- # this means to ignore newlines until "baseurl:"
   Workshop syllabus for HTML and CSS conducted under TECH Setu
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/html-css" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 image_base_url: /assets/img
 author: BRG
